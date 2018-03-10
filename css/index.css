@@ -1,0 +1,226 @@
+@import url('base.css');
+@font-face {
+    font-family: 'iconfont';  /* project id 570543 */
+    src: url('https://at.alicdn.com/t/font_570543_7fc2qe55cmxkzkt9.eot');
+    src: url('https://at.alicdn.com/t/font_570543_7fc2qe55cmxkzkt9.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_570543_7fc2qe55cmxkzkt9.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_570543_7fc2qe55cmxkzkt9.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_570543_7fc2qe55cmxkzkt9.svg#iconfont') format('svg');
+}
+.iconfont{font-family: 'iconfont';}
+header{
+    width: 100%;
+    height: 6rem;
+    margin-top: 0.2rem;
+}
+
+header ul {
+    width:100%;
+    /*overflow: hidden;*/
+    position: relative;
+    height: 100%;
+}
+header ul li{
+    width:100%;
+    height:100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+header ul li img{
+    height:100%;
+    width: 100%;
+}
+
+
+
+
+.mid{
+    width:8.8rem;
+    height:4.6rem;
+    background: #fff;
+    margin: -1rem auto;
+    z-index: 200;
+    position: relative;
+    border-radius: 0.1rem;
+    box-shadow: 0 0.1rem  0.2rem 0 rgba(0,0,0,0.2);
+}
+.mid ul{
+    width:7.5rem;
+    height: 2.8rem;
+    margin: 0.15rem auto ;
+}
+.mid >ul> li{
+    width:100%;
+    height:33.333333%;
+    border-bottom: 0.01rem solid rgba(0,0,0,0.3);
+    display: flex;
+}
+.mid >ul> li>p,.mid >ul> li>i{
+    color: rgba(0,0,0,0.5);
+    font-size: 0.5rem;
+    margin-top: 0.2rem;
+    margin-right: 0.4rem;
+}
+.sousuo{
+    width:7.6rem;
+    height: 1.1rem;
+    background: #f8484e;
+    margin: 0.37rem auto ;
+    border-radius: 1.1rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.5rem;
+}
+.tianya{
+    width:8rem;
+    height:1.8rem;
+    background: #fff;
+    margin-top: 0.5rem;
+    color: rgba(0,0,0,0.8);
+    font-size: 0.5rem;
+    font-weight: bold;
+    line-height: 2rem;
+    margin-left: 0.5rem;
+}
+
+.tian{
+    width:9.3rem;
+    height: 3.8rem;
+    margin-left: 0.5rem;
+    overflow: hidden;
+}
+.tianbottom{
+    width:300rem;
+    height: 3rem;
+    display: flex;
+    /*flex-shrink:0;*/
+}
+.tupian{
+    width:9.3rem;
+    height:3rem;%;
+    /*background: #000;*/
+    margin-right: 0.2rem;
+}
+.tupian1{
+    width:100%;
+    height:2.12rem;
+    overflow: hidden;
+
+}
+.tupian1>img{
+    height:100%;
+    width: 100%;
+}
+.tupian>p{
+    font-size: 0.4rem;
+    margin-top: 0.2rem;
+    font-weight: bold;
+    color: #000;
+}
+.hengxian{
+    width:9.5rem;
+    margin: 0 auto;
+    margin-top: 0.05rem;
+    height: 0.03rem;
+    background: rgba(0,0,0,0.3);
+}
+.daban{
+    width:8.8rem;
+    margin:0 auto;
+    height:1.5rem;
+    /*background: red;*/
+    margin-top: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.zuodaban{
+    font-size: 0.7rem;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+.dabanright{
+    font-size: 0.4rem;
+    color: #000;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+.zuida{
+    width:9.8rem;
+    overflow: hidden;
+}
+.box{
+    width:100rem;
+    height:8rem;
+    /*background: red;*/
+    display: flex;
+    margin-left: 0.5rem;
+}
+.pic{
+    width:8.5rem;
+    height:100%;
+    margin-right: 0.5rem;
+}
+.picture{
+    width:8.5rem;
+    height:6rem;
+    border-radius: 0.2rem;
+    background: #000;
+    overflow: hidden;
+    margin-right: 0.5rem;
+}
+.picture>img{
+    width:100%;
+    height:100%;
+}
+.pic>i{
+    display: block;
+    font-size: 0.5rem;
+    margin-top: 0.3rem;
+    font-weight: 700;
+
+}
+.pic>p{
+    font-size: 0.4rem;
+    line-height: 1.4rem;
+    margin-top: -0.3rem;
+}
+
+
+
+footer{
+    width:100%;
+    height:1.5rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 900;
+    margin-top: 1.5rem;
+}
+footer>a{
+    display: block;
+}
+footer>a>p{
+    font-size: 0.4rem;
+    color: rgba(0,0,0,0.8);
+    text-align: center;
+    font-family: '宋体';
+
+}
+footer>a>i{
+    color: rgba(0,0,0,0.6);
+    font-size: 0.7rem;
+    display: block;
+    margin-top: 0.1rem;
+    text-align: center;
+   display: block;
+}
+footer>a>.active{
+    color: #f8484e;
+}
